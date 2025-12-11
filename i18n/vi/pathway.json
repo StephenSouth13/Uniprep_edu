@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Lộ trình học tập dành riêng cho bạn",
+    "description": "Tool phân tích mục tiêu – điểm mạnh – sở thích để gợi ý lộ trình học phù hợp 100%.",
+    "cta": "Bắt đầu phân tích"
+  },
+  "steps": {
+    "step1": {
+      "title": "Mục tiêu học tập",
+      "description": "Chọn 1 hoặc nhiều mục tiêu",
+      "options": ["Du học", "Lên đại học trong nước", "Chuyển ngành", "Học kỹ năng mới", "Tìm việc trong 6–12 tháng"]
+    },
+    "step2": {
+      "title": "Sở thích",
+      "description": "Lĩnh vực nào bạn quan tâm?",
+      "options": ["Công nghệ", "Kinh tế", "Sáng tạo", "Kỹ thuật", "Ngoại ngữ"]
+    },
+    "step3": {
+      "title": "Nền tảng hiện tại",
+      "description": "Giúp Uniprep hiểu rõ hơn",
+      "fields": {
+        "currentGrade": "Lớp/Ngành hiện tại",
+        "strengths": "Điểm mạnh",
+        "weaknesses": "Điểm yếu",
+        "englishLevel": "Trình độ tiếng Anh"
+      },
+      "englishLevels": ["A1 Beginner", "A2 Elementary", "B1 Intermediate", "B2 Upper-Intermediate", "C1 Advanced"]
+    },
+    "step4": {
+      "title": "Thời gian học",
+      "description": "Bạn có bao nhiêu thời gian?",
+      "fields": {
+        "hoursPerWeek": "Bao nhiêu giờ/tuần?",
+        "learningMode": "Muốn học online hay offline?"
+      },
+      "modes": ["Online", "Offline", "Hybrid"]
+    }
+  },
+  "result": {
+    "title": "Lộ trình phù hợp nhất cho bạn",
+    "primaryProgram": "Chương trình chính gợi ý",
+    "secondaryOptions": "Các lựa chọn khác",
+    "roadmap": "Lộ trình 12 tháng",
+    "projectedOutcome": "Kết quả dự kiến",
+    "cta1": "Đăng ký ngay",
+    "cta2": "Tải PDF",
+    "sampleRoadmap": [
+      { "month": "Tháng 1–2", "content": "Python + Excel Nâng cao" },
+      { "month": "Tháng 3–4", "content": "SQL & Dashboard Creation" },
+      { "month": "Tháng 5–6", "content": "Dự án dữ liệu thật" },
+      { "month": "Tháng 7–12", "content": "Chuyên sâu + Internship" }
+    ]
+  }
+}

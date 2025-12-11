@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Kiến thức & Tin tức từ Uniprep",
+    "description": "Bài viết chuyên sâu về học thuật, kỹ năng, và định hướng nghề nghiệp.",
+    "featured": "Bài viết nổi bật"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "slug": "top-5-skills-2024",
+      "title": "5 Kỹ năng hàng đầu thế giới cần năm 2024",
+      "excerpt": "Khám phá những kỹ năng quan trọng nhất mà các nhà tuyển dụng đang tìm kiếm.",
+      "content": "Năm 2024 đánh dấu một bước ngoặt trong thế giới công việc...",
+      "category": "Career Advice",
+      "author": "Trần Hải",
+      "readTime": 5,
+      "publishedAt": "2024-12-01T10:00:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 2,
+      "slug": "ielts-preparation-tips",
+      "title": "Cách học IELTS hiệu quả đạt 7.0+ trong 3 tháng",
+      "excerpt": "Lộ trình chi tiết từ cơ bản đến advanced để đạt IELTS 7.0+",
+      "content": "IELTS là chứng chỉ tiếng Anh được công nhận toàn cầu...",
+      "category": "Study Tips",
+      "author": "Nguyễn Anh",
+      "readTime": 8,
+      "publishedAt": "2024-11-25T14:30:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 3,
+      "slug": "data-science-bootcamp",
+      "title": "Boot camp Data Science: Từ Zero to Job Ready",
+      "excerpt": "Cùng tìm hiểu về lộ trình trở thành Data Scientist chuyên nghiệp.",
+      "content": "Data Science không chỉ về mã hóa...",
+      "category": "Career Advice",
+      "author": "Phạm Linh",
+      "readTime": 10,
+      "publishedAt": "2024-11-20T09:15:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 4,
+      "slug": "ai-trends-2025",
+      "title": "Xu hướng AI 2025: Những gì bạn cần biết",
+      "excerpt": "AI đang thay đổi nhanh chóng, bạn sẽ học được những xu hướng nào?",
+      "content": "Năm 2025 sẽ là năm của AI...",
+      "category": "News",
+      "author": "Lê Minh",
+      "readTime": 6,
+      "publishedAt": "2024-11-15T16:45:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 5,
+      "slug": "university-admission-guide",
+      "title": "Hướng dẫn toàn diện về tuyển sinh Đại học",
+      "excerpt": "Tất cả những gì bạn cần biết để chuẩn bị tuyển sinh Đại học.",
+      "content": "Quá trình tuyển sinh Đại học có thể phức tạp...",
+      "category": "Study Tips",
+      "author": "Trần Minh",
+      "readTime": 12,
+      "publishedAt": "2024-11-10T11:20:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 6,
+      "slug": "soft-skills-matter",
+      "title": "Tại sao Soft Skills quan trọng hơn bạn tưởng",
+      "excerpt": "Kỹ năng mềm không chỉ được nói tới, mà còn quyết định sự thành công.",
+      "content": "Trong thế giới việc làm hiện đại...",
+      "category": "Career Advice",
+      "author": "Ngô Hà",
+      "readTime": 7,
+      "publishedAt": "2024-11-05T13:00:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    }
+  ],
+  "pagination": {
+    "postsPerPage": 9,
+    "nextPage": "Trang tiếp",
+    "previousPage": "Trang trước"
+  }
+}

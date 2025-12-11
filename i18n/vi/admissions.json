@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Đăng ký tuyển sinh tại Uniprep",
+    "description": "Hoàn tất form bên dưới. Đội ngũ tư vấn sẽ liên hệ trong 24 giờ."
+  },
+  "form": {
+    "step1": {
+      "title": "Thông tin cá nhân",
+      "fields": {
+        "fullName": "Họ và tên *",
+        "dateOfBirth": "Ngày sinh *",
+        "email": "Email *",
+        "phone": "Số điện thoại *",
+        "nationality": "Quốc tịch *"
+      }
+    },
+    "step2": {
+      "title": "Học vấn",
+      "fields": {
+        "currentLevel": "Trình độ hiện tại *",
+        "gpa": "Điểm trung bình (GPA) *",
+        "englishLevel": "Trình độ tiếng Anh *"
+      },
+      "levels": ["Lớp 10", "Lớp 11", "Lớp 12", "Sinh viên năm 1", "Sinh viên năm 2", "Sinh viên năm 3+", "Người đi làm"]
+    },
+    "step3": {
+      "title": "Mục tiêu học",
+      "fields": {
+        "programId": "Chương trình muốn đăng ký *",
+        "reason": "Lý do chọn chương trình này? *",
+        "startDate": "Thời gian muốn bắt đầu *"
+      }
+    },
+    "step4": {
+      "title": "Upload tài liệu",
+      "fields": {
+        "transcript": "Bảng điểm học tập (PDF) *",
+        "idCard": "CMND/Passport (PDF/JPG) *",
+        "photo": "Ảnh 3×4 (JPG/PNG) *"
+      },
+      "uploadHint": "Kéo thả hoặc nhấp để chọn. Tối đa 5MB."
+    },
+    "step5": {
+      "title": "Xác nhận & Gửi",
+      "reviewLabel": "Xem lại thông tin",
+      "submit": "Gửi đơn đăng ký",
+      "submitting": "Đang gửi..."
+    },
+    "success": "Đơn đăng ký của bạn đã gửi thành công! Đội ngũ Uniprep sẽ liên hệ trong 24 giờ."
+  }
+}

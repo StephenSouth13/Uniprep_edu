@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Knowledge & Insights from Uniprep",
+    "description": "In-depth articles on academics, skills, and career guidance.",
+    "featured": "Featured Article"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "slug": "top-5-skills-2024",
+      "title": "Top 5 Skills the World Needs in 2024",
+      "excerpt": "Discover the most important skills employers are looking for.",
+      "content": "2024 marks a turning point in the job market...",
+      "category": "Career Advice",
+      "author": "John Smith",
+      "readTime": 5,
+      "publishedAt": "2024-12-01T10:00:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 2,
+      "slug": "ielts-preparation-tips",
+      "title": "How to Ace IELTS 7.0+ in 3 Months",
+      "excerpt": "A comprehensive roadmap from basics to advanced IELTS.",
+      "content": "IELTS is a globally recognized English certification...",
+      "category": "Study Tips",
+      "author": "Sarah Johnson",
+      "readTime": 8,
+      "publishedAt": "2024-11-25T14:30:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 3,
+      "slug": "data-science-bootcamp",
+      "title": "Data Science Bootcamp: Zero to Job Ready",
+      "excerpt": "Learn the pathway to becoming a professional Data Scientist.",
+      "content": "Data Science is more than just coding...",
+      "category": "Career Advice",
+      "author": "Michael Chen",
+      "readTime": 10,
+      "publishedAt": "2024-11-20T09:15:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 4,
+      "slug": "ai-trends-2025",
+      "title": "AI Trends 2025: What You Need to Know",
+      "excerpt": "AI is evolving rapidly, and here's what's coming next.",
+      "content": "2025 will be the year of AI breakthroughs...",
+      "category": "News",
+      "author": "Emma Watson",
+      "readTime": 6,
+      "publishedAt": "2024-11-15T16:45:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 5,
+      "slug": "university-admission-guide",
+      "title": "Complete University Admission Guide",
+      "excerpt": "Everything you need to know to prepare for university admission.",
+      "content": "The university admission process can be complex...",
+      "category": "Study Tips",
+      "author": "David Lee",
+      "readTime": 12,
+      "publishedAt": "2024-11-10T11:20:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": 6,
+      "slug": "soft-skills-matter",
+      "title": "Why Soft Skills Matter More Than You Think",
+      "excerpt": "Soft skills aren't just talked about, they determine success.",
+      "content": "In today's job market, soft skills are crucial...",
+      "category": "Career Advice",
+      "author": "Lisa Anderson",
+      "readTime": 7,
+      "publishedAt": "2024-11-05T13:00:00Z",
+      "thumbnail": "/placeholder.svg?height=400&width=600"
+    }
+  ],
+  "pagination": {
+    "postsPerPage": 9,
+    "nextPage": "Next Page",
+    "previousPage": "Previous Page"
+  }
+}

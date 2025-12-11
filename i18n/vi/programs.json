@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "title": "Khám phá các chương trình đào tạo tại Uniprep",
+    "description": "Uniprep mang đến lộ trình học chuẩn quốc tế dành cho học sinh phổ thông, sinh viên và người đi làm muốn chuyển ngành. Tất cả chương trình đều được thiết kế theo chuẩn đại học và phù hợp nhu cầu tuyển dụng thật.",
+    "cta1": "Xem lộ trình gợi ý",
+    "cta2": "Đăng ký tư vấn"
+  },
+  "filters": {
+    "search": "Tìm chương trình…",
+    "field": "Lĩnh vực",
+    "level": "Cấp độ",
+    "duration": "Thời lượng",
+    "fields": {
+      "economics": "Kinh tế",
+      "technology": "Công nghệ",
+      "languages": "Ngôn ngữ",
+      "engineering": "Kỹ thuật"
+    },
+    "levels": {
+      "foundation": "Foundation",
+      "diploma": "Diploma",
+      "bachelor_prep": "Bachelor Prep",
+      "skill_track": "Skill Track"
+    },
+    "durations": {
+      "3m": "3 tháng",
+      "6m": "6 tháng",
+      "12m": "12 tháng"
+    }
+  },
+  "programs": [
+    {
+      "id": 1,
+      "title": "Foundation in Computer Science",
+      "description": "Nền tảng thuật toán, tư duy lập trình, cấu trúc dữ liệu – chuẩn bị cho đại học ngành CNTT.",
+      "level": "Foundation",
+      "duration": "12 tháng",
+      "format": "Online + Offline",
+      "outcomes": "Nhập học Đại học CNTT"
+    },
+    {
+      "id": 2,
+      "title": "Diploma in Business Analytics",
+      "description": "Học phân tích dữ liệu, Excel nâng cao, Python, Dashboard.",
+      "level": "Diploma",
+      "duration": "6 tháng",
+      "format": "Online",
+      "outcomes": "Nhân viên Business Analyst"
+    },
+    {
+      "id": 3,
+      "title": "Foundation in Economics",
+      "description": "Kinh tế vĩ mô, vi mô, tài chính quốc tế – sẵn sàng cho ngành Kinh tế.",
+      "level": "Foundation",
+      "duration": "12 tháng",
+      "format": "Online + Offline",
+      "outcomes": "Nhập học Ngành Kinh tế"
+    },
+    {
+      "id": 4,
+      "title": "Diploma in Software Engineering",
+      "description": "Full-stack development, DevOps, system design cho các lập trình viên.",
+      "level": "Diploma",
+      "duration": "12 tháng",
+      "format": "Offline",
+      "outcomes": "Senior Software Engineer"
+    },
+    {
+      "id": 5,
+      "title": "Skill Track: IELTS Intensive 6.5+",
+      "description": "Luyện thi IELTS 6.5+ với giáo viên native, mock exams hàng tuần.",
+      "level": "Skill Track",
+      "duration": "6 tháng",
+      "format": "Online",
+      "outcomes": "IELTS 6.5+ Certificate"
+    },
+    {
+      "id": 6,
+      "title": "Skill Track: UI/UX Design",
+      "description": "Thiết kế giao diện, UX research, prototyping với Figma, Framer.",
+      "level": "Skill Track",
+      "duration": "3 tháng",
+      "format": "Online",
+      "outcomes": "UI/UX Portfolio Ready"
+    },
+    {
+      "id": 7,
+      "title": "Skill Track: Python for Data Science",
+      "description": "Python, Pandas, Scikit-learn, Matplotlib, dự án dữ liệu thực tế.",
+      "level": "Skill Track",
+      "duration": "6 tháng",
+      "format": "Online",
+      "outcomes": "Data Scientist Entry-level"
+    },
+    {
+      "id": 8,
+      "title": "Skill Track: Marketing Performance Ads",
+      "description": "Facebook Ads, Google Ads, A/B Testing, ROI Analytics – marketing hiệu suất cao.",
+      "level": "Skill Track",
+      "duration": "3 tháng",
+      "format": "Online",
+      "outcomes": "Marketing Specialist"
+    }
+  ],
+  "studyFlow": {
+    "step1": "Đánh giá năng lực",
+    "step1Desc": "Làm bài test + tư vấn 1:1",
+    "step2": "Chọn chương trình",
+    "step2Desc": "AI đề xuất dựa trên mục tiêu",
+    "step3": "Vào học và theo dõi",
+    "step3Desc": "Dashboard theo dõi kết quả theo tuần"
+  },
+  "finalCta": {
+    "title": "Bạn chưa chắc chắn chọn chương trình nào?",
+    "description": "Hãy để Uniprep đề xuất cho bạn",
+    "button1": "Làm bài test gợi ý",
+    "button2": "Đặt lịch tư vấn"
+  }
+}

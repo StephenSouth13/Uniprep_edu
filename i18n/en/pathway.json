@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "Your Personalized Learning Pathway",
+    "description": "Our AI analyzes your goals, strengths, and interests to create a 100% customized learning plan.",
+    "cta": "Start Analysis"
+  },
+  "steps": {
+    "step1": {
+      "title": "Learning Goals",
+      "description": "Select one or more goals",
+      "options": ["Study Abroad", "Domestic University", "Career Switch", "Learn New Skills", "Find Job in 6-12 months"]
+    },
+    "step2": {
+      "title": "Interests",
+      "description": "What fields excite you?",
+      "options": ["Technology", "Economics", "Creative", "Engineering", "Languages"]
+    },
+    "step3": {
+      "title": "Current Background",
+      "description": "Help us understand you better",
+      "fields": {
+        "currentGrade": "Current Grade/Major",
+        "strengths": "Strengths",
+        "weaknesses": "Areas to improve",
+        "englishLevel": "English Level"
+      },
+      "englishLevels": ["A1 Beginner", "A2 Elementary", "B1 Intermediate", "B2 Upper-Intermediate", "C1 Advanced"]
+    },
+    "step4": {
+      "title": "Your Availability",
+      "description": "How much time do you have?",
+      "fields": {
+        "hoursPerWeek": "Hours per week?",
+        "learningMode": "Online or Offline?"
+      },
+      "modes": ["Online", "Offline", "Hybrid"]
+    }
+  },
+  "result": {
+    "title": "Your Perfect Learning Pathway",
+    "primaryProgram": "Recommended Primary Program",
+    "secondaryOptions": "Alternative Options",
+    "roadmap": "12-Month Roadmap",
+    "projectedOutcome": "Projected Outcome",
+    "cta1": "Enroll Now",
+    "cta2": "Download PDF",
+    "sampleRoadmap": [
+      { "month": "Month 1–2", "content": "Python + Advanced Excel" },
+      { "month": "Month 3–4", "content": "SQL & Dashboard Creation" },
+      { "month": "Month 5–6", "content": "Real-world Data Project" },
+      { "month": "Month 7–12", "content": "Specialization + Internship" }
+    ]
+  }
+}

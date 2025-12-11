@@ -1,0 +1,119 @@
+{
+  "hero": {
+    "title": "Explore All Academic Programs at Uniprep",
+    "description": "Uniprep provides internationally aligned pathways for high school students, university learners, and career shifters. Each program is designed with real industry requirements.",
+    "cta1": "View Suggested Pathway",
+    "cta2": "Book Consultation"
+  },
+  "filters": {
+    "search": "Search programs...",
+    "field": "Field",
+    "level": "Level",
+    "duration": "Duration",
+    "fields": {
+      "economics": "Economics",
+      "technology": "Technology",
+      "languages": "Languages",
+      "engineering": "Engineering"
+    },
+    "levels": {
+      "foundation": "Foundation",
+      "diploma": "Diploma",
+      "bachelor_prep": "Bachelor Prep",
+      "skill_track": "Skill Track"
+    },
+    "durations": {
+      "3m": "3 months",
+      "6m": "6 months",
+      "12m": "12 months"
+    }
+  },
+  "programs": [
+    {
+      "id": 1,
+      "title": "Foundation in Computer Science",
+      "description": "Core algorithms, computational thinking, and data structures for future CS undergraduates.",
+      "level": "Foundation",
+      "duration": "12 months",
+      "format": "Online + Offline",
+      "outcomes": "University CS Admission"
+    },
+    {
+      "id": 2,
+      "title": "Diploma in Business Analytics",
+      "description": "Learn analytics, advanced Excel, Python, and dashboards for data-driven decisions.",
+      "level": "Diploma",
+      "duration": "6 months",
+      "format": "Online",
+      "outcomes": "Business Analyst Role"
+    },
+    {
+      "id": 3,
+      "title": "Foundation in Economics",
+      "description": "Macroeconomics, microeconomics, international finance for economics majors.",
+      "level": "Foundation",
+      "duration": "12 months",
+      "format": "Online + Offline",
+      "outcomes": "Economics University Entry"
+    },
+    {
+      "id": 4,
+      "title": "Diploma in Software Engineering",
+      "description": "Full-stack development, DevOps, and system design for aspiring engineers.",
+      "level": "Diploma",
+      "duration": "12 months",
+      "format": "Offline",
+      "outcomes": "Senior Software Engineer"
+    },
+    {
+      "id": 5,
+      "title": "Skill Track: IELTS Intensive 6.5+",
+      "description": "IELTS 6.5+ preparation with native speakers, weekly mock exams.",
+      "level": "Skill Track",
+      "duration": "6 months",
+      "format": "Online",
+      "outcomes": "IELTS 6.5+ Certificate"
+    },
+    {
+      "id": 6,
+      "title": "Skill Track: UI/UX Design",
+      "description": "Interface design, UX research, prototyping with Figma and Framer.",
+      "level": "Skill Track",
+      "duration": "3 months",
+      "format": "Online",
+      "outcomes": "Portfolio Ready"
+    },
+    {
+      "id": 7,
+      "title": "Skill Track: Python for Data Science",
+      "description": "Python, Pandas, Scikit-learn, Matplotlib, real-world data projects.",
+      "level": "Skill Track",
+      "duration": "6 months",
+      "format": "Online",
+      "outcomes": "Entry-level Data Scientist"
+    },
+    {
+      "id": 8,
+      "title": "Skill Track: Marketing Performance Ads",
+      "description": "Facebook Ads, Google Ads, A/B Testing, ROI Analytics.",
+      "level": "Skill Track",
+      "duration": "3 months",
+      "format": "Online",
+      "outcomes": "Marketing Specialist"
+    }
+  ],
+  "studyFlow": {
+    "step1": "Assessment",
+    "step1Desc": "Take test and 1:1 consultation",
+    "step2": "Choose Program",
+    "step2Desc": "AI recommendation based on goals",
+    "step3": "Learn & Track Progress",
+    "step3Desc": "Weekly progress dashboard"
+  },
+  "finalCta": {
+    "title": "Not sure which program fits you?",
+    "description": "Let Uniprep recommend the perfect path for your goals.",
+    "button1": "Take Assessment Test",
+    "button2": "Schedule Consultation"
+  }
+}

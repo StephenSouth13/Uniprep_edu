@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Apply to Uniprep",
+    "description": "Complete the form below. Our admissions team will contact you within 24 hours."
+  },
+  "form": {
+    "step1": {
+      "title": "Personal Information",
+      "fields": {
+        "fullName": "Full Name *",
+        "dateOfBirth": "Date of Birth *",
+        "email": "Email *",
+        "phone": "Phone Number *",
+        "nationality": "Nationality *"
+      }
+    },
+    "step2": {
+      "title": "Academic Background",
+      "fields": {
+        "currentLevel": "Current Education Level *",
+        "gpa": "GPA *",
+        "englishLevel": "English Level *"
+      },
+      "levels": ["Grade 10", "Grade 11", "Grade 12", "Year 1", "Year 2", "Year 3+", "Working Professional"]
+    },
+    "step3": {
+      "title": "Learning Goals",
+      "fields": {
+        "programId": "Desired Program *",
+        "reason": "Why this program? *",
+        "startDate": "Preferred Start Date *"
+      }
+    },
+    "step4": {
+      "title": "Upload Documents",
+      "fields": {
+        "transcript": "Academic Transcript (PDF) *",
+        "idCard": "ID/Passport (PDF/JPG) *",
+        "photo": "Passport Photo (JPG/PNG) *"
+      },
+      "uploadHint": "Drag & drop or click to select. Max 5MB each."
+    },
+    "step5": {
+      "title": "Review & Submit",
+      "reviewLabel": "Review Information",
+      "submit": "Submit Application",
+      "submitting": "Submitting..."
+    },
+    "success": "Your application has been submitted successfully! Our team will contact you within 24 hours."
+  }
+}
