@@ -151,6 +151,7 @@ export default function AboutPage() {
   }
 
   const currentContent = content[language as keyof typeof content]
+  const iconMap = { BookOpen, Users, TrendingUp } as const
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-background to-muted">
@@ -210,13 +211,13 @@ export default function AboutPage() {
           <h2 className="text-4xl font-bold mb-12 text-center">{currentContent.why_different}</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {currentContent.features.map((feature, idx) => {
-              const IconComponent = { BookOpen, Users, TrendingUp }[feature.icon as keyof typeof BookOpen: typeof BookOpen ]
+              const IconComponent = iconMap[feature.icon as keyof typeof iconMap]
               return (
                 <div
                   key={idx}
                   className="relative p-6 rounded-xl border border-primary/10 hover:border-primary/30 bg-gradient-to-br from-white to-primary/5 hover:shadow-lg transition-all duration-300 group animate-in fade-in slide-in-from-bottom-4 duration-500"
-                  style={{ animationDelay: `${idx * 100}ms\` }}
-                >\
+                  style={{ animationDelay: `${idx * 100}ms` }}
+                >
                   <div className="absolute inset-0 bg-gradient-to-r from-primary/0 via-primary/0 to-primary/0 group-hover:from-primary/5 group-hover:to-primary/10 rounded-xl transition-colors duration-300"></div>
                   <div className="relative z-10">
                     <div className="w-12 h-12 rounded-lg bg-primary/10 group-hover:bg-primary/20 flex items-center justify-center mb-4 transition-colors duration-300">
@@ -248,7 +249,7 @@ export default function AboutPage() {
                     src={member.image || "/placeholder.svg"}
                     alt={member.name}
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-300"\
+                    className="object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <CardHeader>
@@ -279,7 +280,7 @@ export default function AboutPage() {
         <div className="container max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center">{currentContent.timeline_title}</h2>
           <div className="relative">
-            <div className=\"absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-accent hidden md:block transform -translate-x-1/2"></div>
+            <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-accent hidden md:block transform -translate-x-1/2"></div>
             <div className="space-y-12">
               {milestones.map((milestone, idx) => (
                 <div
