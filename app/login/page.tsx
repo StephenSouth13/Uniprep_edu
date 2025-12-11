@@ -76,8 +76,8 @@ export default function LoginPage() {
               <Image
                 src="/logo.png"
                 alt="Uniprep Vietnam"
-                width={60}
-                height={60}
+                width={100}
+                height={100}
                 className="relative rounded-full transition-transform duration-300 group-hover:scale-110"
               />
             </Link>

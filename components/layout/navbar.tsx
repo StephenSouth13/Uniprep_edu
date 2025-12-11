@@ -39,8 +39,8 @@ export default function Navbar() {
           <Image
             src="/logo.png"
             alt="Uniprep Vietnam Logo"
-            width={40}
-            height={40}
+            width={120}
+            height={120}
             className="transition-transform duration-300 group-hover:brightness-110"
           />
         </Link>
