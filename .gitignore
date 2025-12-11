@@ -1,0 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.swc/
+.next-es-build/
+
+# typescript
+*.tsbuildinfo
+
+# optional Sentry config
+.sentryclirc
+
+# optional caches
+.turbo/
+.cache/
+.next/cache/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# VSCode
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
